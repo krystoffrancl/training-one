@@ -38,9 +38,12 @@ export function Welcome({ message }: { message: string }) {
                                     </a>
                                 </li>
                             ))}
-                            <li className="self-stretch p-3 leading-normal">
+                            <a
+                                className="self-stretch p-3 leading-normal flex items-center gap-3 text-gray-100"
+                                href="https://github.com/krystoffrancl/training-one"
+                            >
                                 {message}
-                            </li>
+                            </a>
                         </ul>
                     </nav>
                 </div>
